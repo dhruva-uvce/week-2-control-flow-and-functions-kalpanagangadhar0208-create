@@ -14,4 +14,12 @@
 # Sample Input 2:   Enter a year: 1900
 # Sample Output 2:  1900 is not a leap year
 
-# --- YOUR CODE HERE ---
+# --- YOUR CODE HERE -----
+# Leap Year Checker
+
+year = int(input("Enter a year: "))
+
+if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+    print(year, "is a leap year")
+else:
+    print(year, "is not a leap year")
