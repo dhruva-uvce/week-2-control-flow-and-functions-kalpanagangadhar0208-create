@@ -17,12 +17,15 @@
 def add_element(lst, element):
     # --- YOUR CODE HERE ---
     pass
-
+    add_element(lst, element):
+    lst.append(element)
 
 def double_elements(lst):
     # --- YOUR CODE HERE ---
     pass
-
+   double_elements(lst):
+    for i in range(len(lst)):
+        lst[i] = lst[i] * 2
 
 if __name__ == "__main__":
     # Demonstrate call by reference
